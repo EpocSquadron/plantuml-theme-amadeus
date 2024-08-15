@@ -1,8 +1,8 @@
 # Amadeus PlantUML Theme
 
-This is a plantUML theme for my employer, Amadeus. It essentially draws from the
-official brand colors and makes some other adjustments to make nicer diagrams
-for internal use.
+This is a plantUML theme for my employer, [Amadeus](https://amadeus.com).
+It essentially draws from the official brand colors and makes some other
+adjustments to make nicer diagrams for internal use.
 
 ## Usage
 
