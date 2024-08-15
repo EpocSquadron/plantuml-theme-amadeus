@@ -1,0 +1,95 @@
+'' Theme for Amadeus diagrams that attempts to follow
+'' the brand guidelines and just in general look better.
+'' 
+'' Author: Daniel Poulin <daniel.poulin@amadeus.com>
+'' License: MIT
+'' Classification: Public
+
+'' Amadeus official brand colors
+!define CLOUDWHITE #FFFFFF
+!define DARKSKY #000835
+!define VIVIDSKY #3A8BFF
+!define LIGHTSKY #C5D5F9
+!define DARKFOREST #023A00
+!define VIVIDFOREST #92FF73
+!define LIGHTFOREST #C8FFC0
+!define DARKCANARY #564A00
+!define VIVIDCANARY #FCE649
+!define LIGHTCANARY #FFFEB0
+!define DARKCRIMSON #560900
+!define VIVIDCRIMSON #FF514D
+!define LIGHTCRIMSON #FFD7D7
+!define DARKFUCHSIA #4F0230
+!define VIVIDFUCHSIA #FF58AC
+!define LIGHTFUCHSIA #FFC5F9
+!define DARKVIOLET #26005A
+!define VIVIDVIOLET #B650FF
+!define LIGHTVIOLET #E4C7FF
+
+skinparam Default {
+  FontName "DejaVu Sans" ' Initially was Amadeus Neue, but that font doesn't
+                         ' display in SVG exports, and isn't available in confluence
+  FontColor DARKSKY
+  FontSize 14
+  TextAlignment center
+}
+skinparam Title {
+  FontSize 24
+}
+skinparam Actor {
+  BackgroundColor LIGHTSKY
+  BoderColor DARKSKY
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
+skinparam Database {
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
+skinparam Component {
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
+skinparam Arrow {
+  Color DARKSKY
+  Thickness 2
+}
+skinparam UseCase {
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
+skinparam Note {
+  BackgroundColor LIGHTCANARY
+  BorderColor DARKCANARY
+  BorderThickness 2
+  FontColor DARKCANARY
+  TextAlignment left
+}
+
+skinparam Rectangle {
+  BorderColor DARKSKY
+  BorderThickness 2
+}
+
+skinparam Package {
+  BorderColor DARKSKY
+  BorderThickness 2
+}
+
+skinparam BackgroundColor transparent
+skinparam maxMessageSize 100
+skinparam RoundCorner 12
+skinparam Padding 4
+skinparam lengthAdjust none ' Prevents svg exports (including confluence embeds) from messing with font kerning
+
+<style>
+note {
+  MaximumWidth 250
+}
+</style>
