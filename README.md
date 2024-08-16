@@ -99,6 +99,51 @@ note {
 @enduml
 ```
 
+Here is a visual reference of all available colors:
+
+| Variable | Color |
+|--|--|
+|`CLOUDWHITE` | ![#FFFFFF](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFFFFF) `#FFFFFF` |
+|`CLOUDWHITEALPHA` | ![#FFFFFF35](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFFFFF35) `#FFFFFF35` |
+|`DARKSKY` | ![#000835](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23000835) `#000835` |
+|`DARKSKYALPHA` | ![#00083535](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%2300083535) `#00083535` |
+|`VIVIDSKY` | ![#3A8BFF](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%233A8BFF) `#3A8BFF` |
+|`VIVIDSKYALPHA` | ![#3A8BFF35](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%233A8BFF35) `#3A8BFF35` |
+|`LIGHTSKY` | ![#C5D5F9](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23C5D5F9) `#C5D5F9` |
+|`LIGHTSKYALPHA` | ![#C5D5F935](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23C5D5F935) `#C5D5F935` |
+|`DARKFOREST` | ![#023A00](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23023A00) `#023A00` |
+|`DARKFORESTALPHA` | ![#023A0035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23023A0035) `#023A0035` |
+|`VIVIDFOREST` | ![#92FF73](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%2392FF73) `#92FF73` |
+|`VIVIDFORESTALPHA` | ![#92FF7335](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%2392FF7335) `#92FF7335` |
+|`LIGHTFOREST` | ![#C8FFC0](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23C8FFC0) `#C8FFC0` |
+|`LIGHTFORESTALPHA` | ![#C8FFC035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23C8FFC035) `#C8FFC035` |
+|`DARKCANARY` | ![#564A00](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23564A00) `#564A00` |
+|`DARKCANARYALPHA` | ![#564A0035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23564A0035) `#564A0035` |
+|`VIVIDCANARY` | ![#FCE649](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FCE649) `#FCE649` |
+|`VIVIDCANARYALPHA` | ![#FCE64935](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FCE64935) `#FCE64935` |
+|`LIGHTCANARY` | ![#FFFEB0](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFFEB0) `#FFFEB0` |
+|`LIGHTCANARYALPHA` | ![#FFFEB035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFFEB035) `#FFFEB035` |
+|`DARKCRIMSON` | ![#560900](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23560900) `#560900` |
+|`DARKCRIMSONALPHA` | ![#56090035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%2356090035) `#56090035` |
+|`VIVIDCRIMSON` | ![#FF514D](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FF514D) `#FF514D` |
+|`VIVIDCRIMSONALPHA` | ![#FF514D35](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FF514D35) `#FF514D35` |
+|`LIGHTCRIMSON` | ![#FFD7D7](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFD7D7) `#FFD7D7` |
+|`LIGHTCRIMSONALPHA` | ![#FFD7D735](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFD7D735) `#FFD7D735` |
+|`DARKFUCHSIA` | ![#4F0230](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%234F0230) `#4F0230` |
+|`DARKFUCHSIAALPHA` | ![#4F023035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%234F023035) `#4F023035` |
+|`VIVIDFUCHSIA` | ![#FF58AC](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FF58AC) `#FF58AC` |
+|`VIVIDFUCHSIAALPHA` | ![#FF58AC35](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FF58AC35) `#FF58AC35` |
+|`LIGHTFUCHSIA` | ![#FFC5F9](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFC5F9) `#FFC5F9` |
+|`LIGHTFUCHSIAALPHA` | ![#FFC5F935](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFC5F935) `#FFC5F935` |
+|`DARKVIOLET` | ![#26005A](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%2326005A) `#26005A` |
+|`DARKVIOLETALPHA` | ![#26005A35](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%2326005A35) `#26005A35` |
+|`VIVIDVIOLET` | ![#B650FF](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23B650FF) `#B650FF` |
+|`VIVIDVIOLETALPHA` | ![#B650FF35](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23B650FF35) `#B650FF35` |
+|`LIGHTVIOLET` | ![#E4C7FF](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23E4C7FF) `#E4C7FF` |
+|`LIGHTVIOLETALPHA` | ![#E4C7FF35](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23E4C7FF35) `#E4C7FF35` |
+
+
+
 ### Sequence Diagrams
 
 To best work with the theme, make sure your return messages are formatted
