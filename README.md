@@ -1,8 +1,31 @@
 # Amadeus PlantUML Theme
 
-This is a plantUML theme for my employer, [Amadeus](https://amadeus.com).
-It essentially draws from the official brand colors and makes some other
-adjustments to make nicer diagrams for internal use.
+## What is it?
+
+This is a plantUML theme for my employer, [Amadeus](https://amadeus.com). It
+draws from the official brand colors and makes other adjustments to make nicer
+diagrams.
+
+## Why?
+
+I firmly believe that communicating effectively requires removing as many
+barriers to understanding as possible. A key barrier to consider is *cognitive
+load*, which can be summarized as the amount of ideas, jargon, and notation that
+must be understood before one can begin to understand the actual message or idea
+being conveyed.
+
+Diagrams are often used to provide visual aids to understanding of systems,
+including software and business systems. But diagrams produced by plantuml,
+the leading diagramming software in Amadeus (and many other organizations), the
+default visuals produced are noisy and ugly. Noise occurs when diagrams fail
+to hierarchically apply color, emphasis, and transparency to draw focus to the
+essential concepts, while retaining the supplemental information required when
+reviewing the diagram deeply. Ugliness, while often considered unimportant,
+distracts the mind from the message and subconciously generates negative
+emotional response. Elimination of noise and ugliness are some of the key jobs
+of design in marketing and communications, but are applicable even to internal
+stakeholders. In other words, taking care to make a clean, readable theme makes
+this essential tool more effective.
 
 ## Usage
 
@@ -145,7 +168,7 @@ then export as PNG.
 
 In your diagram:
 
-```
+```puml
 @startuml
 
 !theme amadeus from https://raw.githubusercontent.com/EpocSquadron/plantuml-theme-amadeus/main/
