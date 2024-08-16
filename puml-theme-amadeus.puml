@@ -7,24 +7,43 @@
 
 '' Amadeus official brand colors
 !define CLOUDWHITE #FFFFFF
+!define CLOUDWHITEALPHA #FFFFFF35
 !define DARKSKY #000835
+!define DARKSKYALPHA #00083535
 !define VIVIDSKY #3A8BFF
+!define VIVIDSKYALPHA #3A8BFF35
 !define LIGHTSKY #C5D5F9
+!define LIGHTSKYALPHA #C5D5F935
 !define DARKFOREST #023A00
+!define DARKFORESTALPHA #023A0035
 !define VIVIDFOREST #92FF73
+!define VIVIDFORESTALPHA #92FF7335
 !define LIGHTFOREST #C8FFC0
+!define LIGHTFORESTALPHA #C8FFC035
 !define DARKCANARY #564A00
+!define DARKCANARYALPHA #564A0035
 !define VIVIDCANARY #FCE649
+!define VIVIDCANARYALPHA #FCE64935
 !define LIGHTCANARY #FFFEB0
+!define LIGHTCANARYALPHA #FFFEB035
 !define DARKCRIMSON #560900
+!define DARKCRIMSONALPHA #56090035
 !define VIVIDCRIMSON #FF514D
+!define VIVIDCRIMSONALPHA #FF514D35
 !define LIGHTCRIMSON #FFD7D7
+!define LIGHTCRIMSONALPHA #FFD7D735
 !define DARKFUCHSIA #4F0230
+!define DARKFUCHSIAALPHA #4F023035
 !define VIVIDFUCHSIA #FF58AC
+!define VIVIDFUCHSIAALPHA #FF58AC35
 !define LIGHTFUCHSIA #FFC5F9
+!define LIGHTFUCHSIAALPHA #FFC5F935
 !define DARKVIOLET #26005A
+!define DARKVIOLETALPHA #26005A35
 !define VIVIDVIOLET #B650FF
+!define VIVIDVIOLETALPHA #B650FF35
 !define LIGHTVIOLET #E4C7FF
+!define LIGHTVIOLETALPHA #E4C7FF35
 
 skinparam Default {
   FontName "DejaVu Sans" ' Initially was Amadeus Neue, but that font doesn't
@@ -77,16 +96,42 @@ skinparam Rectangle {
   BorderThickness 2
 }
 
+skinparam Participant {
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
+  BorderThickness 2
+}
+
+skinparam SequenceLifeline {
+  BackgroundColor LIGHTSKY
+  BorderColor VIVIDSKY
+  BorderThickness 2
+}
+
+skinparam SequenceGroup {
+  BackgroundColor LIGHTSKYALPHA
+  BodyBackgroundColor LIGHTSKYALPHA
+  BorderColor LIGHTSKY
+}
+
+skinparam SequenceBox {
+  BackgroundColor LIGHTVIOLETALPHA
+  BodyBackgroundColor LIGHTVIOLETALPHA
+  BorderColor LIGHTVIOLET
+  FontColor DARKVIOLET
+}
+
 skinparam Package {
   BorderColor DARKSKY
   BorderThickness 2
 }
 
 skinparam BackgroundColor transparent
-skinparam maxMessageSize 100
+skinparam maxMessageSize 150
 skinparam RoundCorner 12
 skinparam Padding 4
 skinparam lengthAdjust none ' Prevents svg exports (including confluence embeds) from messing with font kerning
+skinparam ResponseMessageBelowArrow true
 
 <style>
 note {
