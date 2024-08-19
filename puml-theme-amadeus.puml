@@ -73,6 +73,21 @@ skinparam Component {
   BorderThickness 2
   StereotypeFontColor DARKCANARY
 }
+skinparam Card {
+  BorderColor DARKSKY
+  BorderThickness 2
+}
+skinparam Collections {
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
+skinparam Legend {
+  BorderColor DARKSKY
+  BorderThickness 2
+  EntrySeparator DARKSKY
+}
 skinparam Arrow {
   Color DARKSKY
   Thickness 2
