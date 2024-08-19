@@ -27,6 +27,15 @@ of design in marketing and communications, but are applicable even to internal
 stakeholders. In other words, taking care to make a clean, readable theme makes
 this essential tool more effective.
 
+## Status
+
+This theme does not yet cover all elements supported by plantuml. Contributions
+are welcome. Elements for the following are mostly complete:
+
+- component diagrams
+- sequence diagrams
+- use case diagrams
+
 ## Usage
 
 In your plantuml diagram files, declare the theme like so:
