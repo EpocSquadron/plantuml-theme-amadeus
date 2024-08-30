@@ -83,6 +83,17 @@ skinparam Collections {
   BorderThickness 2
   StereotypeFontColor DARKCANARY
 }
+skinparam Queue {
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
+skinparam SequenceDivider {
+  BackgroundColor LIGHTFUCHSIA
+  BorderColor DARKFUCHSIA
+  BorderThickness 2
+}
 skinparam Legend {
   BorderColor DARKSKY
   BorderThickness 2
