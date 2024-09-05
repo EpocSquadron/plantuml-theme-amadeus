@@ -60,6 +60,7 @@ skinparam Actor {
   BoderColor DARKSKY
   BorderThickness 2
   StereotypeFontColor DARKCANARY
+  Style awesome
 }
 skinparam Database {
   BackgroundColor LIGHTSKY
