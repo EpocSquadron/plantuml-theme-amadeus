@@ -95,6 +95,22 @@ skinparam SequenceDivider {
   BorderColor DARKFUCHSIA
   BorderThickness 2
 }
+skinparam State {
+  BackgroundColor LIGHTFUCHSIA
+  BorderColor DARKFUCHSIA
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
+skinparam Activity {
+  StartColor VIVIDFUCHSIA
+  EndColor VIVIDFUCHSIA
+  BackgroundColor LIGHTFUCHSIA
+  BorderColor DARKFUCHSIA
+  BorderThickness 2
+}
+skinparam ActivityDiamond {
+  BackgroundColor VIVIDFUCHSIA
+}
 skinparam Legend {
   BorderColor DARKSKY
   BorderThickness 2
