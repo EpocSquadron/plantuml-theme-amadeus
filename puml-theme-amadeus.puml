@@ -78,6 +78,12 @@ skinparam Card {
   BorderColor DARKSKY
   BorderThickness 2
 }
+skinparam Class {
+  BackgroundColor LIGHTFOREST
+  BorderColor DARKFOREST
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
 skinparam Collections {
   BackgroundColor LIGHTSKY
   BorderColor DARKSKY
