@@ -74,6 +74,12 @@ skinparam Component {
   BorderThickness 2
   StereotypeFontColor DARKCANARY
 }
+skinparam Node {
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
+  BorderThickness 2
+  StereotypeFontColor DARKCANARY
+}
 skinparam Card {
   BorderColor DARKSKY
   BorderThickness 2
@@ -90,16 +96,23 @@ skinparam Collections {
   BorderThickness 2
   StereotypeFontColor DARKCANARY
 }
+skinparam Cloud {
+  BackgroundColor LIGHTSKYALPHA
+  BorderColor DARKSKYALPHA
+  BorderThickness 2
+  StereotypeFontColor DARKCANARYALPHA
+}
 skinparam Queue {
   BackgroundColor LIGHTSKY
   BorderColor DARKSKY
   BorderThickness 2
   StereotypeFontColor DARKCANARY
 }
-skinparam SequenceDivider {
-  BackgroundColor LIGHTFUCHSIA
-  BorderColor DARKFUCHSIA
+skinparam Rectangle {
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
   BorderThickness 2
+  StereotypeFontColor DARKCANARY
 }
 skinparam State {
   BackgroundColor LIGHTFUCHSIA
@@ -151,28 +164,37 @@ skinparam Participant {
   BorderThickness 2
 }
 
-skinparam SequenceLifeline {
-  BackgroundColor LIGHTSKY
-  BorderColor VIVIDSKY
-  BorderThickness 2
-}
-
-skinparam SequenceGroup {
-  BackgroundColor LIGHTSKYALPHA
-  BodyBackgroundColor LIGHTSKYALPHA
-  BorderColor LIGHTSKY
-}
-
-skinparam SequenceBox {
-  BackgroundColor LIGHTVIOLETALPHA
-  BodyBackgroundColor LIGHTVIOLETALPHA
-  BorderColor LIGHTVIOLET
-  FontColor DARKVIOLET
-}
-
 skinparam Package {
   BorderColor DARKSKY
   BorderThickness 2
+}
+
+skinparam Sequence {
+  'We can't make the lifeline borders thicker, so when the arrows are aligned
+  'to lifelines, they will look jagged unless we reset the thickness in this
+  'context.
+  ArrowThickness 1
+  LifeLine {
+    BackgroundColor LIGHTSKY
+    BorderColor DARKSKY
+    BorderThickness 2
+  }
+  Group {
+    BackgroundColor LIGHTSKYALPHA
+    BodyBackgroundColor LIGHTSKYALPHA
+    BorderColor LIGHTSKY
+  }
+  Box {
+    BackgroundColor LIGHTVIOLETALPHA
+    BodyBackgroundColor LIGHTVIOLETALPHA
+    BorderColor LIGHTVIOLET
+    FontColor DARKVIOLET
+  }
+  Divider {
+    BackgroundColor LIGHTFUCHSIA
+    BorderColor DARKFUCHSIA
+    BorderThickness 2
+  }
 }
 
 skinparam BackgroundColor transparent
