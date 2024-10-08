@@ -202,6 +202,10 @@ box "box2" <<box2>>
 endbox
 ```
 
+Additional tips and tricks for more advanced sequence diagram capabilities
+can be found in this
+[excellent guide](https://github.com/fishey2/plantuml_examples/blob/master/sequence_diagrams/README.md).
+
 ### Amadeus Font
 
 Amadeus' official font Amadeus Neue is preinstalled on all workstations,
