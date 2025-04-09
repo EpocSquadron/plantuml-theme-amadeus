@@ -50,6 +50,11 @@ In your plantuml diagram files, declare the theme like so:
 @enduml
 ```
 
+Note that the plantuml previewer hosted internally to Amadeus cannot process the
+theme import. You can either comment it out while working in the previewer, or
+copy and paste the contents of the theme directly into it's place as a temporary
+measure.
+
 If you are modifying the theme locally (please consider contributing!) you can clone
 this repository or download just the `puml-theme-amadeus.puml` file locally, then
 point to it in your theme declaration:
