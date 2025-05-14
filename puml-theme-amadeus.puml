@@ -197,7 +197,7 @@ skinparam Sequence {
   }
 }
 
-skinparam BackgroundColor transparent
+skinparam BackgroundColor CLOUDWHITE
 skinparam maxMessageSize 150
 skinparam RoundCorner 12
 skinparam Padding 4
