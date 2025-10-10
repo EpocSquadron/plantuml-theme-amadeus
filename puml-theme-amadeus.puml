@@ -121,20 +121,20 @@ skinparam Rectangle {
   StereotypeFontColor DARKCANARY
 }
 skinparam State {
-  BackgroundColor LIGHTFUCHSIA
-  BorderColor DARKFUCHSIA
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
   BorderThickness 2
   StereotypeFontColor DARKCANARY
 }
 skinparam Activity {
-  StartColor VIVIDFUCHSIA
-  EndColor VIVIDFUCHSIA
-  BackgroundColor LIGHTFUCHSIA
-  BorderColor DARKFUCHSIA
+  StartColor VIVIDSKY
+  EndColor VIVIDSKY
+  BackgroundColor LIGHTSKY
+  BorderColor DARKSKY
   BorderThickness 2
 }
 skinparam ActivityDiamond {
-  BackgroundColor VIVIDFUCHSIA
+  BackgroundColor VIVIDSKY
 }
 skinparam Legend {
   BorderColor DARKSKY
