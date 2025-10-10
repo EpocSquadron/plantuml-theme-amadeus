@@ -143,6 +143,12 @@ Here is a visual reference of all available colors:
 |`VIVIDCRIMSONALPHA` | ![#FF514D35](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FF514D35) `#FF514D35` |
 |`LIGHTCRIMSON` | ![#FFD7D7](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFD7D7) `#FFD7D7` |
 |`LIGHTCRIMSONALPHA` | ![#FFD7D735](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFD7D735) `#FFD7D735` |
+|`DARKPUMPKIN` | ![#5B2500](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%235B2500) `#5B2500` |
+|`DARKPUMPKINALPHA` | ![#5B250035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%235B250035) `#5B250035` |
+|`VIVIDPUMPKIN` | ![#FF7920](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FF7920) `#FF7920` |
+|`VIVIDPUMPKINALPHA` | ![#FF792035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FF792035) `#FF792035` |
+|`LIGHTPUMPKIN` | ![#FFD9C4](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFD9C4) `#FFD9C4` |
+|`LIGHTPUMPKINALPHA` | ![#FFD9C435](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FFD9C435) `#FFD9C435` |
 |`DARKFUCHSIA` | ![#4F0230](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%234F0230) `#4F0230` |
 |`DARKFUCHSIAALPHA` | ![#4F023035](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%234F023035) `#4F023035` |
 |`VIVIDFUCHSIA` | ![#FF58AC](https://images.placeholders.dev/?width=250&height=25&text=%22%20%22&bgColor=%23FF58AC) `#FF58AC` |
