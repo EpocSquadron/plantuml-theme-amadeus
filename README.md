@@ -27,6 +27,10 @@ of design in marketing and communications, but are applicable even to internal
 stakeholders. In other words, taking care to make a clean, readable theme makes
 this essential tool more effective.
 
+## Preview
+
+![A simple component diagram to showcase the general look and feel of the theme.](/preview.png)
+
 ## Status
 
 This theme does not yet cover all elements supported by plantuml. Contributions

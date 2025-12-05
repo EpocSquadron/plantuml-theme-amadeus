@@ -1,0 +1,21 @@
+@startuml
+
+!theme amadeus from ./
+left to right direction 
+
+title
+  A Simple Preview
+end title
+
+actor User
+component "Some System" as sys
+collections "Some Dependencies" as deps
+
+User --> sys: uses
+sys --> deps: calls
+
+note bottom of deps
+  Some note with a lot of descriptive text that should wrap.
+end note
+
+@enduml
