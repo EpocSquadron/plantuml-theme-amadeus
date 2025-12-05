@@ -35,6 +35,8 @@ are welcome. Elements for the following are mostly complete:
 - component diagrams
 - sequence diagrams
 - use case diagrams
+- state diagrams
+- activity diagrams
 
 ## Usage
 
